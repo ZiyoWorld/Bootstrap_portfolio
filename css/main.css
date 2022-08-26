@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #333347 !important;
+    vertical-align: middle;
+}
+.navbar{
+    margin: 20px 0;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #363636;
+    margin: 0 10px;
+    font-size: 16px;
+}
+.btn-download{
+    height: 38px;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: transparent;
+    background: transparent;
+    color: #222222;
+    border: 2px solid #1a1919 !important;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+.btn-download:focus{
+    background: #21bf73;
+    color: #FFFFFF;
+    border: 1px solid #21bf73 !important;
+}
+.btn-download:hover{
+    background: #21bf73;
+    color: #FFFFFF;
+    border: 1px solid #21bf73 !important;
+}
