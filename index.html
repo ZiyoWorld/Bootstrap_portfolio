@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/main.css">
     <title>Portfolio | Bootstrap </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <!--Navigation Menu-->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-white fixed-top">
-        <div class="container" >
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-white fixed-top" id="navbar-header">
+        <div class="container">
           <a class="navbar-brand" href="#">Connect.</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse show justify-content-end" id="navbarScroll">
-                <ul class="navbar-nav ml-auto text-center navbar-right">
+                <ul class="navbar-nav navbar-margin ml-auto text-center navbar-right">
                     <li class="nav-item">
                       <a class="nav-link active" aria-current="page" href="#">Product</a>
                     </li>
@@ -41,6 +42,33 @@
         </div>
       </nav>
     <!--!Navigation Menu-->
+
+    <!--Product section-->
+    <section class="product " id="product">
+      <div class="container-fluid bg-light">
+        <div class="container product-container  bg-light">
+          <div class="row">
+            <div class="col-6 p-5">
+              <h4 class="product-head-text">Launch your product</h1>
+              <h1 class="product-title">Connect better with interactive stream.</h1>
+              <div class="product-btn m-2">
+                <button class="btn-download btn-see-more">See More</button>
+                <button class="btn-download btns-download">Download</button>
+              </div>
+              <p>Free unrestricted usage for 14 days.
+                No credit card required*</p>
+            </div>
+            <div class="col-6">
+  
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!--/Product section-->
+
+
 
     
 
